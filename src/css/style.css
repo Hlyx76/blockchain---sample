@@ -1,0 +1,96 @@
+@font-face {
+    font-family: ck;
+    src: url("../fonts/CreamySugar-gxnGR.ttf");
+}
+@font-face {
+    font-family: roboto;
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+/* Tag Selectors */
+body{
+    background-color: #E9E8E8;
+    font-family: roboto;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+table{
+    border-collapse: collapse;
+}
+tr,th,td{
+    padding: 20px;
+}
+ul{
+    list-style-type: "✔️  ";
+}
+input{
+    height: 40px;
+    margin-bottom: 10px;
+    width: 170px;
+}
+/* End of Tag Selectors */
+
+/* Class Selectors */
+
+.textTitle{
+    font-family: ck;
+    font-size: 70px;
+}
+.subText{
+    font-family: arial;
+    font-size: 16px;
+}
+
+.contact{
+    background-color: #CD5888;
+    
+}
+.container{
+    margin: 0 20px;
+}
+.contact .container{
+    padding: 10px;
+}
+
+.email{
+    width: 350px;
+}
+.btn{
+    background-color: #20262E;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+}
+.aboutmep{
+    text-indent: 25px;
+}
+.separator{
+    border-style: dotted;
+    border-width: 4px;
+    border-bottom: none;
+}
+.separatorTop{
+    border: 30px double;
+    border-bottom: none;
+    
+}
+.separatorBottom{
+    border: 30px double;
+    border-top: none;
+    
+}
+.white{
+    color: white;
+}
+/* End of Class Selectors */
+
+/* ID Selectors */
+#name{
+    font-size: 40px;
+}
+#socialMedia img{
+    height: 50px;
+}
+
+/* End of ID Selectors */
